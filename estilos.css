@@ -1,0 +1,91 @@
+body{
+    
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background: hsl(204, 43%, 93%);
+    margin: 20% 28%;
+    
+}
+.wrapper{
+    max-width: 1340px;
+    margin: auto;
+    box-shadow: -5px -5px 5px rgba(0,0,0,.1);
+    border-radius: 15px;
+    
+}
+
+.hero{
+    background: white;
+    padding: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.color-1{
+    color: hsl(179, 62%, 43%) ;
+}
+.color-2{
+    color:hsl(71, 73%, 54%);
+}
+.color-3{
+    color:hsl(218, 22%, 67%) ;
+}
+.arms{
+    display: flex;
+    border:1px solid;
+    color: white;
+    background:#2bb3b1 ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.first{
+    
+    padding:30px ;
+    width: 50%;
+
+}
+
+.button{
+    
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 80%;
+    display: inline-flex;  
+    justify-content: center;
+    text-decoration: initial;
+    color: white;
+    background: hsl(71, 73%, 54%);
+}
+.second{
+    
+    padding:30px ;
+    width: 50%;
+    background: #4abebd;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width:1024px){
+    body{
+        margin: 20%;
+    }
+}
+@media screen and (max-width:768px){
+    .arms{
+        display: block;
+    }
+    .first{
+        width: initial;
+    }
+    .second{
+        width: initial;
+        border-bottom-left-radius: 15px;
+    }
+    
+
+}
+@media screen and (max-width:425px){
+    body{
+        margin: 10%;
+    }
+}
